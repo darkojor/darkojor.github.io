@@ -15,7 +15,8 @@ body {
 }
 h1 {
     text-align: center;
-    font-family: Andale Mono, monospace;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-shadow: 0 2px 2px white;
     margin-top: 1em;
     font-weight: bolder;
     letter-spacing: 1px;
@@ -39,15 +40,15 @@ nav {
     position: relative;
     margin: 0;
     padding: 4px;
-	background-color: rgba(255,255,255,.1);
-	color: rgba(255,255,255,1);
+    background-color: rgba(255,255,255,.2);
     font-family: Andale Mono, monospace;
 }
 .glavni > li {
     display: inline-block;
 }
 .glavni > li > a {
-     font-size: 19px;
+    display: block;
+     font-size: 18.5px;
      padding: 15px;
      display: block;
      text-decoration: none;
@@ -55,12 +56,25 @@ nav {
      font-weight: bolder;
      box-shadow: 0px 1px 8px 0px black;
      margin-left: 16px;
-     background-color: rgba(255,255,255,.2);
+     background-color: rgba(255,255,255,.3);
+     text-align: center;
 }
 .glavni a:hover {
     color: grey;
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+    padding-top: 17px;
+    text-align: center;
+}
+li#dugme1 {
+    width: 12%;
+}
+li#dugme2 {
+    width: 19.3%;
+}
+li#dugme3 {
+    width: 20%;
 }
 .padajuci {
     position: absolute;
@@ -71,14 +85,14 @@ nav {
     color: black;
     font-weight: bolder;
     box-shadow: 0px 1px 8px 0px black;
-    margin-left: 23px;
-    background-color: rgba(255,255,255,.2);
+    margin-left: 24px;
+    background-color: rgba(255,255,255,.3);
 }
 .sadrzaj {
     display: none;
     padding: 0;
     height: 250px;
-    width: 160px;
+    width: 157px;
     overflow: auto;
     margin-top: 19px;
 }
@@ -98,13 +112,41 @@ nav {
     color: grey;
     background-color: white;
     border-color: red;
-	box-shadow: 0px 1px 8px 0px rgba(245,199,0,.2);
+    font-family: Andale Mono, monospace;
+    font-size: 19px;
 }
 .padajuci:hover .sadrzaj {
     display: block;
     list-style-type: none;
 }
-
+.mreze {
+    display: inline-block;
+    position: fixed;
+    list-style-type: none;
+}
+.mreze > li {
+    position: absolute;
+    list-style-type: none;
+}
+li#fb {
+    margin-left: 208px;
+    margin-top: 10px;
+}
+li#yt {
+    margin-left: 257px;
+    margin-top: 9px;
+}
+li#twitter {
+    margin-left: 309px;
+    margin-top: 10px;
+}
+li#insta {
+    margin-left: 360px;
+    margin-top: 10px;
+}
+.mrezesve:hover {
+    opacity: 0.6;
+}
 main {
 	float: left;
 	width: 1000px;
@@ -374,7 +416,6 @@ footer {
     background: url(../images/header2.jpg);
     position: fixed;
     bottom: 0;
-    background-color: rgba(255,255,255,.2);
 }
 .footerlinkovi {
     color: black;
@@ -384,7 +425,7 @@ footer {
     margin-left: 0px;
 	font-size: 18px;
 	display: inline-block;
-	background-color: rgba(255,255,255,.2);
+	background-color: rgba(255,255,255,.3);
 }
 .footerlinkovi > a:hover {
 	color: white;
