@@ -41,15 +41,15 @@ nav {
     margin: 0;
     padding: 4px;
     background-color: rgba(255,255,255,.2);
-    font-family: Andale Mono, monospace;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 .glavni > li {
     display: inline-block;
 }
 .glavni > li > a {
-    display: block;
-     font-size: 18.5px;
-     padding: 15px;
+     display: block;
+     font-size: 16.5px;
+     padding: 15.5px;
      display: block;
      text-decoration: none;
      color: black;
@@ -63,7 +63,7 @@ nav {
     color: grey;
     background-color: white;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 17px;
+    font-size: 14px;
     padding-top: 17px;
     text-align: center;
 }
@@ -78,14 +78,16 @@ li#dugme3 {
 }
 .padajuci {
     position: absolute;
-    font-family: Andale Mono, monospace;
-    font-size: 19px;
-    padding: 15px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 16.5px;
+    padding: 15.5px;
     display: block;
     color: black;
+    text-align: center;
     font-weight: bolder;
     box-shadow: 0px 1px 8px 0px black;
     margin-left: 24px;
+    width: 157px;
     background-color: rgba(255,255,255,.3);
 }
 .sadrzaj {
@@ -98,7 +100,7 @@ li#dugme3 {
 }
 .padajuci > ul > li > a {
     display: block;
-    font-size: 19px;
+    font-size: 16px;
     padding: 15px;
     background-color: pink;
     text-align: center;
@@ -112,8 +114,8 @@ li#dugme3 {
     color: grey;
     background-color: white;
     border-color: red;
-    font-family: Andale Mono, monospace;
-    font-size: 19px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 16px;
 }
 .padajuci:hover .sadrzaj {
     display: block;
@@ -361,7 +363,7 @@ img#istorija8b {
 }
 .content > h3 {
 	text-align: left;
-	font-family: Andale Mono, monospace;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     font-size: 1.3em;
     margin: 2.5em 2em 2em 2em;
     text-shadow: 0 2px 2px grey;
@@ -377,7 +379,7 @@ img#istorija8b {
 .sidebardecor {
 	text-align: center; 
     font-size: 19px;
-    font-family: Andale Mono, monospace;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     padding: 15px;
     color: black;
     font-weight: bolder;
@@ -396,7 +398,7 @@ img#istorija8b {
 }
 .sidebar > h2 {
 	text-align: center;
-	font-family: Andale Mono, monospace;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     font-size: 1.3em;
     font-weight: bolder;
     margin: 3em 2em 2em 2em;
@@ -437,5 +439,5 @@ footer {
 .footer {
 	margin-top: 10px;
 	color: rgba(255,255,255,1);
-    font-family: Andale Mono, monospace;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
