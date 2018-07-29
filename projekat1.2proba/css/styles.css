@@ -430,7 +430,7 @@ footer {
     nav {width: 110%;}
     main {width: 110%;}
     footer {width: 110%;}
-    .dropdown {width: 38%; margin-left: 40px;}
+    .dropdown {width: 38%; margin-left: 50px;}
     h1 {font-size: 150%; position: absolute; padding: 8px 20px 8px 8px;}
 
 }
