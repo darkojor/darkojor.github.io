@@ -425,6 +425,15 @@ footer {
         nav {height: 190px;}
 
 }
+@media only screen and (max-width: 453px) and (min-width: 0px){
+    header {width: 110%;}
+    nav {width: 110%;}
+    main {width: 110%;}
+    footer {width: 110%;}
+    .dropdown {width: 38%; margin-left: 50px;}
+    h1 {font-size: 150%; position: absolute; padding: 8px 20px 8px 8px;}
+
+}
 @media only screen and (max-width: 800px) {
     main {flex-direction: column;}
     header {font-size: 70%;}
