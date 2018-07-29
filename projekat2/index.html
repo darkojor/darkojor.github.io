@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script type="text/javascript" src="js/projekat.js"></script>
+</head>
+<body>
+      <div id="demo" class="container">
+    	   <h3>Task list<h3><br>
+          <form name="addingTasks">
+             <div class="group">
+        	      <input id="new-task" name="newTaskText" type="text" placeholder="New task" onkeypress="return searchKeyPress(event);"><br>
+                <input id="addT" name="addTaskBtn" class="button" type="button" value="ADD TASK" onclick="taskAdd()"><br>
+             </div>
+           </form>
+             <br><br>
+      	 <h3>Tasks</h3><br>
+          <form name="listOfTasks">
+              <div class="group">
+        	      <input id="filter" name="filterTasksText" type="text" placeholder="Filter Tasks" onkeyup="filterTasks()"><br>
+                   <div id="incompleteTasks">
+                   </div><br>
+                <input id="deleteall" name="clearTasksBtn" class="button" type="button" value="CLEAR TASKS" onclick="deleteAll()">
+                </div>
+            </form>
+             </div>
+    <script type="text/javascript" src="js/projekat.js"></script>
+  </body>
+</html>

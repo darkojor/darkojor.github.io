@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+    font-family: 'Oswald', 'Futura', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+.container {
+    display: block;
+    width: 500px;
+    margin: 100px auto 0;
+    border: 0.5px solid lightgrey;
+    padding: 25px;
+}
+.group { 
+    position:relative; 
+}
+input {
+    font-size: 10px;
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+input:focus { 
+    outline: none; 
+}
+input:focus ~ label, input:valid {
+    font-size: 14px;
+}
+.button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div.oneTask {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    font-size: .8rem;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    user-select: none;
+}
+div.oneTask:last-child {
+  border-bottom: 1px solid lightgray;
+}
+#addT {
+    background-color: #27A69B;
+    width: 25%;
+}
+#deleteall {
+    background-color: black;
+    width: 28%;
+}
+clearOneTask {
+    margin: 2px;
+    color: orange;
+}
+span {
+  display: inline-block;
+  overflow: auto;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+clearOneTask:hover {
+  color: red;
+}
