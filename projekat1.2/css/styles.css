@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: rgba(191, 250, 167, 0.54);
+    width: 75%;
+    margin: 0 auto;
+}
+header {
+    height: 110px;
+    width: 100%;
+    background: url(../images/header3.jpg);
+    background-size: 800px 350px;
+    margin-top: 10px;
+    z-index: 1;
+}
+h1 {
+    text-align: center;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    text-shadow: 0 2px 2px white;
+    margin-top: -10px;
+
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+img#grb {
+	float: left;
+	margin-left: 2em; 
+}
+nav {
+    display: flex;
+    background: url(../images/header2.jpg);
+    height: 60px;
+    width: 100%;
+    text-align: left;
+    top: 0;
+    z-index: 1;
+}
+.glavni {
+    margin-top: -15px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+.dugme {
+    color: black;
+    font-weight: bolder;
+    font-size: 16.5px;
+    padding: 17.5px;
+    box-shadow: 0px 1px 8px 0px black;
+    margin-left: 1px;
+    display: inline-block;
+    background-color: rgba(255,255,255,.3);
+    }
+.dugme a {
+  text-decoration: none;
+  color: black;
+}
+.dugme a:hover {
+    color: white;
+    background-color: rgba(255,255,255,.3);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    padding: 14px;
+    text-align: center;
+    margin: 0;
+}
+.dropbtn {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 16.5px;
+    padding: 17.5px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 0px 1px 8px 0px black;
+    background-color: rgba(255,255,255,.3);
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+
+    overflow: auto;
+     margin-top: 1px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.dropdown-content a {
+    display: block;
+    font-size: 16px;
+    padding: 15px;
+    background-color: pink;
+    text-align: center;
+    text-decoration: none;
+    border: .1px solid black;
+    color: black;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-shadow: 0px 1px 8px 0px black;
+    background-color: rgba(255,255,255,.9);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {
+    display: block;
+    list-style-type: none;
+    color: grey;
+    background-color: white;
+    border-color: red;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 16px;
+}
+main {
+    display: flex;
+    flex-direction: row;
+	float: left;
+    height: 100%;
+	margin-bottom: 10px;
+	padding-top: 0px;
+    background-image: url(../images/sidebar.jpg);
+    background-size: 1000px 11000px;
+}   
+section {
+	justify-content: flex-start;
+    display: flex;
+    flex: 1 1 100%;
+    padding-top: 10px;
+	background-image: url(../images/pozadina2.jpg);
+	background-size: 1000px 12000px;
+}
+section#contentdecor p {
+	text-align: justify;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1em;
+    margin: 2em;
+}
+img#istorija1 {
+    float: left;
+    width: 130px;
+    height: 180px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+img#istorija2 {
+    float: right;
+    width: 130px;
+    height: 110px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: .5px;
+}
+img#istorija3 {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+img#istorija4 {
+    float: right;
+    width: 180px;
+    height: 135px;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+img#istorija5 {
+    float: left;
+    width: 180px;
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+img#istorija6 {
+    float: right;
+    width: 170px;
+    height: 190px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+img#istorija7 {
+    float: left;
+    width: 240px;
+    height: 195px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+img#istorija8 {
+    float: right;
+    width: 250px;
+    height: 180px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+img#istorija1a {
+    float: left;
+    width: 210px;
+    height: 180px;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+img#istorija2a {
+    float: right;
+    width: 170px;
+    height: 110px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: .5px;
+}
+img#istorija3a {
+    float: left;
+    width: 180px;
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+img#istorija4a {
+    float: right;
+    width: 180px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+img#istorija5a {
+    float: left;
+    width: 180px;
+    height: 130px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+img#istorija6a {
+    float: right;
+    width: 250px;
+    height: 195px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+img#istorija7a {
+    float: left;
+    width: 240px;
+    height: 195px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+img#istorija8a {
+    float: right;
+    width: 250px;
+    height: 180px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+img#istorija1b {
+    float: left;
+    width: 160px;
+    height: 205px;
+    margin-right: 15px;
+    margin-top: 3px;
+}
+img#istorija2b {
+    float: right;
+    width: 210px;
+    height: 180px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: .5px;
+}
+img#istorija3b {
+    float: left;
+    width: 180px;
+    height: 260px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+img#istorija4b {
+    float: right;
+    width: 280px;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+img#istorija5b {
+    float: left;
+    width: 200px;
+    height: 240px;
+    margin-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+img#istorija6b {
+    float: right;
+    width: 250px;
+    height: 195px;
+    margin-left: 15px;
+    margin-top: 6px;
+}
+img#istorija7b {
+    float: left;
+    width: 240px;
+    height: 195px;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+img#istorija8b {
+    float: right;
+    width: 250px;
+    height: 180px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+.istorija-sve:hover {
+	opacity: 0.5;
+}
+.indent {
+    text-indent: 10%;
+}
+article > h3 {
+	text-align: left;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 1.3em;
+    margin: 2.5em 2em 2em 2em;
+    text-shadow: 0 2px 2px grey;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+aside {
+	justify-content: flex-end;
+}
+.sidebardecor {
+	text-align: center; 
+    font-size: 19px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    padding: 15px;
+    color: black;
+    font-weight: bolder;
+    margin-left: -.2em;
+}
+.sidebardecor a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    width: 220px;
+}
+.sidebardecor a:hover {
+    color: grey;
+    background-color: rgba(200, 95, 95, 0.11);
+    padding: 4px;
+}
+aside > h2 {
+	text-align: center;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin: 3em 2em 2em 2em;
+    text-shadow: 0 2px 2px grey;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+section, aside {
+    display: inline-block;
+}
+.sideborder {
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+footer {
+    padding: 3px;
+    width: 100%;
+    text-align: center;
+    background: url(../images/header2.jpg);
+}
+.footerlinkovi {
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    box-shadow: 0px 1px 8px 0px black;
+    margin-left: 0px;
+	font-size: 18px;
+	display: inline-block;
+	background-color: rgba(255,255,255,.3);
+}
+.footerlinkovi > a:hover {
+	color: white;
+}
+.footerlinkovi > a {
+	text-decoration: none;
+	color: black;
+}
+.footer {
+	margin-top: 10px;
+    margin-bottom: 10px;
+	color: rgba(255,255,255,1);
+   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerlinkovi{width: 80%;}
+    nav {flex-direction: column;}
+    main {flex-direction: column;}
+    header {font-size: 50%;}
+        nav {height: 190px;}
+
+}
+@media only screen and (max-width: 800px) {
+    main {flex-direction: column;}
+    header {font-size: 70%;}
+}
+@media only screen and (max-width: 850px) {
+    main {flex-direction: column;}
+    header {font-size: 70%;}
+    nav {flex-direction: column; height: 200px;}
+       .glavni > .dugme {line-height: 10px; width: 75%; }
+       .glavni  {margin-top: 15px; }
+         .dugme {margin-top: -15px;}
+    .dropbtn {line-height: 10px; width: 200%; margin-bottom: 0.5px; margin-top: -15px; margin-left: -80px; margin-right: 80px;}
+    .dropdown-content {line-height: 10px; width: 200%; margin-bottom: 0.5px; margin-top: 1px; margin-left: -80px;}
+}
+/*@media only screen and (max-width: 999px) {
+    nav > .glavni > .dugme {margin: 17px 0 2px 0;}
+    .dropbtn {margin-left: 0px;}
+
+}
